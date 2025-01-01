@@ -7,10 +7,11 @@ import JosephusProblem from "./Repos/Josephus-Problem";
 import PangramChecker from "./Repos/Pangram-Checker";
 import RomanNumeralConverter from "./Repos/Roman-Numeral-Convertor";
 import SlidingWindowViz from "./Repos/Sliding-Window-Visualization";
+import ImageSmoother from "./Repos/Smooth-Image";
 // import HalvesComparison from "./Repos/Halves-Vowels-Comparison";
 
 function App() {
-  return <JosephusProblem />;
+  return <ImageSmoother />;
 }
 
 export default App;
