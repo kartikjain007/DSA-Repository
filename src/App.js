@@ -3,6 +3,7 @@ import "./App.css";
 import OverlapDetector from "./Repos/Circle-And-Overlapping";
 import OriginalArrayFinder from "./Repos/Double-Original-Array";
 import DutchFlagSortVisualizer from "./Repos/Dutch-National-Flag";
+import ImageOverlapVisualizer from "./Repos/Image-Overlap";
 import JosephusProblem from "./Repos/Josephus-Problem";
 import PangramChecker from "./Repos/Pangram-Checker";
 import RomanNumeralConverter from "./Repos/Roman-Numeral-Convertor";
@@ -11,7 +12,7 @@ import ImageSmoother from "./Repos/Smooth-Image";
 // import HalvesComparison from "./Repos/Halves-Vowels-Comparison";
 
 function App() {
-  return <ImageSmoother />;
+  return <ImageOverlapVisualizer />;
 }
 
 export default App;
