@@ -9,10 +9,12 @@ import PangramChecker from "./Repos/Pangram-Checker";
 import RomanNumeralConverter from "./Repos/Roman-Numeral-Convertor";
 import SlidingWindowViz from "./Repos/Sliding-Window-Visualization";
 import ImageSmoother from "./Repos/Smooth-Image";
+import ScreenshotCapture from "./Repos/Screenshot-Capture";
+import NiceSubarrays from "./Repos/Nice-Subarray-Counter";
 // import HalvesComparison from "./Repos/Halves-Vowels-Comparison";
 
 function App() {
-  return <ImageOverlapVisualizer />;
+  return <NiceSubarrays />;
 }
 
 export default App;
