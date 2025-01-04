@@ -11,10 +11,11 @@ import SlidingWindowViz from "./Repos/Sliding-Window-Visualization";
 import ImageSmoother from "./Repos/Smooth-Image";
 import ScreenshotCapture from "./Repos/Screenshot-Capture";
 import NiceSubarrays from "./Repos/Nice-Subarray-Counter";
+import PatternMatcher from "./Repos/Substring-Matching-Pattern";
 // import HalvesComparison from "./Repos/Halves-Vowels-Comparison";
 
 function App() {
-  return <NiceSubarrays />;
+  return <PatternMatcher />;
 }
 
 export default App;
