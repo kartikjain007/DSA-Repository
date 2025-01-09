@@ -12,10 +12,11 @@ import ImageSmoother from "./Repos/Smooth-Image";
 import ScreenshotCapture from "./Repos/Screenshot-Capture";
 import NiceSubarrays from "./Repos/Nice-Subarray-Counter";
 import PatternMatcher from "./Repos/Substring-Matching-Pattern";
+import PrefixCounter from "./Repos/Words-Counter-For-Given-Prefix";
 // import HalvesComparison from "./Repos/Halves-Vowels-Comparison";
 
 function App() {
-  return <PatternMatcher />;
+  return <PrefixCounter />;
 }
 
 export default App;
